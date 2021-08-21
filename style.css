@@ -1,3 +1,7 @@
+html, body{
+	font-family: 'Lato', sans-serif;
+}
+
 .clear {
 	clear: both;
 }
@@ -5,23 +9,88 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 20px;	
 }
 
 #name {
 	float: left;
+	 
 }
 
 #contactDetails {
 	float: right;
+	color: #181818;
+
 }
 
 .sectionTitle {
 	float: left;
 	width: 25%;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
 }
 
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	text-align: justify;
 }
+.mainDetails{
+	border-left: 0px;
+	border-width: 0px;	
+	border-bottom: 2px;
+	border-top: 0px;
+	border-color: #cf8a05;
+	border-style: solid;
+}
+img{
+    border-radius: 50%;
+}
+#top{
+	padding: 5% 10%;
+	text-align: justify;
+	background-color: #f3f3f3;
+}
+h1, h2{
+	font-family: 'Arial', sans-serif;
+}
+ul{
+	list-style: none;
+}
+.subDetails{
+	line-height: 0px;
+	font-style: italic;
+	font-weight: 350;
+	font-size: 17px;
+	color: #181818;
+}
+section{
+
+	border-left: 0px;
+	border-width: 0px;	
+	border-bottom: 1px;
+	border-top: 0px;
+	border-color: #dedede;
+	border-style: solid;
+	
+}
+p{
+	font-size: 20px;
+}
+.sectionTitle{
+	color: #444444;
+	font-style: italic;	
+}
+h2{
+	color: #444444;
+}
+.keySkills li{
+	color: #cf8a05;
+	display: inline-block;
+	margin: 5px;
+	font-size: 20px;
+	text-align: justify;
+}
+
