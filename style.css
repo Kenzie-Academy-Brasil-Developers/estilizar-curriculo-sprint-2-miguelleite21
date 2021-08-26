@@ -1,7 +1,17 @@
-html, body{
-	font-family: 'Lato', sans-serif;
-	width: 900px;
+html{
+	font-family: 'Lato', sans-serif;	
 }
+#top{
+	
+	text-align: justify;
+	background-color: #f3f3f3;
+	width: 900px;
+	position: absolute ;
+	top: 5%;
+	left:50%;
+	transform: translate(-50%, 5%);	
+}
+
 
 .clear {
 	clear: both;
@@ -14,7 +24,7 @@ html, body{
 }
 
 #name {
-	float: left;	 
+	float: left;
 }
 #name h1{
 	font-size: 35px;
@@ -28,9 +38,11 @@ html, body{
 #contactDetails {
 	float: right;
 	color: #181818;
-
 }
-
+a {
+	color: #181818;
+	text-decoration: none;
+}
 .sectionTitle {
 	float: left;
 	width: 25%;
@@ -45,6 +57,7 @@ html, body{
 	width: 72.5%;
 		
 }
+
 .mainDetails{
 	border-left: 0px;
 	border-width: 0px;	
@@ -56,19 +69,15 @@ html, body{
 img{
     border-radius: 50%;
 }
-#top{
-	padding: 5% 10%;
-	text-align: justify;
-	background-color: #f3f3f3;
-}
+
 h2{
 	font-family: 'Arial', sans-serif;
 	font-size: 20px;
-	
+	color: #444444;	
 }
 h1{
 	font-size: 25px;
-
+	font-family: 'Arial', sans-serif;
 }
 ul{
 	list-style: none;
@@ -94,14 +103,11 @@ p{
 	font-size: 20px;
 }
 .sectionTitle{
-	color: #444444;
+	color: #cf8a05;
 	font-style: italic;
 }
-h2{
-	color: #444444;	
-}
 .keySkills li{
-	color: #cf8a05;
+	
 	display: center;
 	margin: 3px;
 	font-size: 20px;
