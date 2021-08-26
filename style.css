@@ -3,13 +3,14 @@ html{
 }
 #top{
 	
-	text-align: justify;
+	
 	background-color: #f3f3f3;
 	width: 900px;
 	position: absolute ;
 	top: 5%;
 	left:50%;
 	transform: translate(-50%, 5%);	
+	padding: 5% 10%;
 }
 
 
